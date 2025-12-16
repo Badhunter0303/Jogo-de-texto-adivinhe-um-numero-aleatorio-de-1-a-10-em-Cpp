@@ -1,4 +1,4 @@
-#ifndef NUMERO_ALEATORIO_HPP_INCLUDED
+l#ifndef NUMERO_ALEATORIO_HPP_INCLUDED
 #define NUMERO_ALEATORIO_HPP_INCLUDED
 
 bool es_primo(int numero)    // Eu peguei da internet, para saber se o número é primo
@@ -36,7 +36,7 @@ public:
 
         if(valor % 5 == 0)
             divisivel_por_cinco = true;
-        divisivel_por_cinco = false;
+        else divisivel_por_cinco = false;
 
         std::array<int, 3> quadrados_perfeitos {1, 4, 9};
         if(std::find(quadrados_perfeitos.begin(), quadrados_perfeitos.end(), valor) != quadrados_perfeitos.end())
