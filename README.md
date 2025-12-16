@@ -1,4 +1,4 @@
-# Jogo de Adivinhação (C++23)
+# Jogo de Adivinhação/Matemática (C++23)
 
 O que é o programa?
 
